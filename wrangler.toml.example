@@ -1,0 +1,8 @@
+# Optional. Do NOT rename to wrangler.toml for Git deploys: a wrangler file makes Cloudflare Pages ignore dashboard variables/bindings.
+name = "autoverse-ai"
+pages_build_output_dir = "/home/claude/site/dist"
+compatibility_date = "2026-06-01"
+[[d1_databases]]
+binding = "DB"
+database_name = "autoverse-db"
+database_id = "local-test"

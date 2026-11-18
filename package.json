@@ -1,0 +1,1 @@
+{"name":"autoverse-ai","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","test":"npm run build && node --test test/run.test.mjs","dev":"npm run build && npx wrangler pages dev dist --d1=DB"},"devDependencies":{"esbuild":"^0.25.0","html-minifier-terser":"^7.2.0","wrangler":"^4.0.0"}}
